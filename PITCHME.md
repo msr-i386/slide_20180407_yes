@@ -209,5 +209,8 @@ https://github.com/coreutils/coreutils/blob/master/src/yes.c
 ---
 # おまけ
 
-\#危険シェル芸  
-`` $ yes `yes` ``
+\#危険シェル芸
+
+```
+$ yes `yes`
+```
