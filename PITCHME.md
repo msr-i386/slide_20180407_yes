@@ -69,6 +69,7 @@ _yes per second_
   debian系なら`apt-get install pv`で簡単に入手可能
 * ただし、pvコマンドの結果では2バイトのため単位変換が必要  
   例) 100 [MB / s] => 50,000,000 [yes / s]
+* 「yes per second」ではなく「y per second」ではないか説
 
 ```
 $ yes | pv > /dev/null
@@ -94,7 +95,7 @@ char **argv;
 }
 ```
 
-記録: 
+記録: 14837350.4 \[yes/s\]
 
 ---
 ## NetBSDでの実装
@@ -120,7 +121,7 @@ http://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/yes/yes.c?rev=1.9&content-type=t
 ※OpenBSDも同様の実装  
 https://github.com/openbsd/src/blob/master/usr.bin/yes/yes.c
 
-記録: 
+記録: 14,942,208 \[yes/s\]
 
 
 
@@ -145,7 +146,6 @@ int main(int argc, char **argv)
 
 https://github.com/freebsd/freebsd/blob/master/usr.bin/yes/yes.c
 
-記録: 
 
 
 
@@ -171,7 +171,7 @@ main (int argc, char **argv)
 
 https://github.com/coreutils/coreutils/blob/master/src/yes.c
 
-記録: 
+記録: 225,443,840 \[yes/s\]
 
 ---
 ## FreeBSD, GNU coreutilsが高速な理由
