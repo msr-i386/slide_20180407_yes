@@ -117,6 +117,7 @@ char **argv;
 
 * これも非常にシンプル
 
+※一部改行を削除
 ```
 int main(int argc, char **argv)
 {
