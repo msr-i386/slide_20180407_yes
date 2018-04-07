@@ -79,6 +79,8 @@ _yes per second_
   例) 100 [MB / s] => 50,000,000 [yes / s]
 * 「yes per second」ではなく「y per second」ではないか説
 
+---
+
 ```
 $ yes | pv > /dev/null
   63GiB 0:00:02 [1.88GiB/s] [ <=>      ]
