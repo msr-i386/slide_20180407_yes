@@ -194,9 +194,9 @@ main (int argc, char **argv)
 https://postd.cc/a-little-story-about-the-yes-unix-command/
 * How is GNU `yes` so fast?  
 https://www.reddit.com/r/unix/comments/6gxduc/how_is_gnu_yes_so_fast/
-* Improve yes' throughput (FreeBSD)
+* Improve yes' throughput
 https://github.com/freebsd/freebsd/commit/1d61762ca37c20ab6fa4f5de6e179fa530ec49f2
-* yes: output data more efficiently (GNU coreutils)
+* yes: output data more efficiently
 https://github.com/coreutils/coreutils/commit/35217221c211f3116f374f305654462195aa634a
 
 ---
