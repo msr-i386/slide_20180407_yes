@@ -76,7 +76,7 @@ _yes per second_
 * 計測にはpvコマンドを使用する  
   debian系なら`apt-get install pv`で簡単に入手可能
 * ただし、pvコマンドの結果では2バイトのため単位変換が必要  
-  例) 100 [MB / s] => 50,000,000 [yes / s]
+  例) 100 [MiB / s] => 52,428,800 [yes / s]
 * 「yes per second」ではなく「y per second」ではないか説
 
 ---
