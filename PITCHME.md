@@ -160,7 +160,7 @@ int main(int argc, char **argv)
 ---
 ## GNU coreutils
 
-* FreeBSDと同様、バッファリングで高速化 (2015年3月10日)
+* バッファリングで高速化 (2015年3月10日)
 
 ※主要部分のみ抜粋
 ```
