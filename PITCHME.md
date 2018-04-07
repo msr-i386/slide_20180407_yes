@@ -80,11 +80,19 @@ $ yes 💩 | head -n 10 | sed -z "s/\n/\//g;s/^/mkdir -p /" | sh
 * 「yes per second」ではなく「y per second」ではないか説
 
 ---
+## pvコマンド実行例
 
 ```
 $ yes | pv > /dev/null
   63GiB 0:00:02 [1.88GiB/s] [ <=>      ]
 ```
+
+---
+
+## 計測環境
+
+* PC: GPD Pocket
+* OS: Ubuntu 16.04 LTS (Windows Subsystem for Linux)
 
 ---
 
@@ -146,8 +154,7 @@ int main(int argc, char **argv)
 }
 ```
 
-
-
+※計測できず
 
 
 ---
@@ -170,7 +177,7 @@ main (int argc, char **argv)
 }
 ```
 
-記録: 225,443,840 \[yes/s\]
+記録: 225,443,840 \[yes/s\] ※8.25
 
 ---
 ## FreeBSD, GNU coreutilsが高速な理由
@@ -180,12 +187,16 @@ main (int argc, char **argv)
 
 
 ---
-# 参考
+# 参考(1)
 
 * Unixコマンド”yes”についてのちょっとした話  
 https://postd.cc/a-little-story-about-the-yes-unix-command/
 * How is GNU `yes` so fast?  
 https://www.reddit.com/r/unix/comments/6gxduc/how_is_gnu_yes_so_fast/
+
+---
+# 参考(2)
+
 * NetBSD - yes.c  
 http://cvsweb.netbsd.org/bsdweb.cgi/src/usr.bin/yes/yes.c?rev=1.9&content-type=text/x-cvsweb-markup
 * OpenBSD - yes.c  
